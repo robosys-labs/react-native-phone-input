@@ -6,5 +6,12 @@ export interface DialCode {
     latitude: number;
     longitude: number;
 }
-declare const dialCodes: DialCode[];
+declare const dialCodes: {
+    countryCode: string;
+    dialCode: string;
+    icon: any;
+    latitude: number;
+    longitude: number;
+    name: string;
+}[];
 export default dialCodes;
