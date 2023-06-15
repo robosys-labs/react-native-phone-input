@@ -7,7 +7,7 @@ export interface DialCode {
     longitude: number
 }
 
-const dialCodes = [
+const dialCodes: DialCode[] = [
 	{
 		countryCode: "BR",
 		dialCode: "+55",
